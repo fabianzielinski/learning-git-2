@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Cabin');
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
 v2.0 | 20110126
@@ -53,19 +53,36 @@ table {
 
 body {
     background-color: rgba(182, 182, 182, .9);
-    font-family: 'Lobster', cursive;
+    font-family: 'Cabin', sans-serif;
     max-width: 1200px;
-    padding: 50px 20%;
+    padding: 50px 20% 50px 20%;
 }
 
-.title, .container {
+.header, .container {
 	background-color: #FFF;
-	min-width: 80%;
-	margin: 50px auto;
-	padding: 50px 35%; 
+	margin: 50px auto 50px auto;
+	padding: 50px 8%; 
+	/*width: 100%;*/
+	text-align: justify;
+	border-radius: 1%;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.title, .band {
+	margin: 5px 20% 5px 20%;
+	padding: 10px 15% 10px 15%;
+}
+
+.title {
+	font-size: 120%;
+	font-weight: bold;
 }
 
 .verse {
-	margin: 30px auto;
-	padding: 5px 35%;
+	margin: 30px auto 30px auto;
+	padding: 5px 25% 5px 25%;
 } 
+
+p {
+	margin: 5px 10% 5px 10%;
+}
