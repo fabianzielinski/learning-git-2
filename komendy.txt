@@ -1,3 +1,8 @@
+Dla autoprefixer-cli:
+
 autoprefixer-cli -o style.prefixed.css style.css
 
-cli </*.html>
+
+Dla nu-html-checker:
+
+cli --formatter <stylish> </*.html>
