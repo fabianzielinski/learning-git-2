@@ -5,4 +5,4 @@ autoprefixer-cli -o style.prefixed.css style.css
 
 Dla nu-html-checker:
 
-cli --formatter <stylish> </*.html>
+globstar nu-html-checker *.html
